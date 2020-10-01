@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   lowest_key = nil 
   lowest_value = nil 
 name_hash.each do |k, v|
-  if v < lowest_value_value || lowest_value == nil 
+  if v < lowest_value || lowest_value == nil 
     lowest_value = v 
     lowest_key = k 
   end
